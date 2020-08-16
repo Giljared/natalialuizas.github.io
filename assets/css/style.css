@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #3a72ff;
+  --white-color: #ffffff;
+  --gray-color: #696969;
+  --black-color: #262626;
+  --default-font-size: 14px;
+  --primary-title-size: 48px;
+  --secondary-title-size: 42px;
+  --primary-paragraph-size: 18px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: var(--white-color);
+  font-size: 10px;
+}
+img {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: block;
+}
+
+.header__infos {
+  width: 100%;
+  height: 450px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__title {
+  color: var(--black-color);
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--primary-title-size);
+}
+
+.linha {
+  width: 80px;
+  border: 1px solid var(--primary-color);
+  margin: 10px;
+}
+
+.header__paragraph {
+  color: var(--gray-color);
+  font-size: var(--primary-paragraph-size);
+}
+
+.contact {
+  margin: 10px 0;
+}
+
+.contact__item i {
+  font-size: 24px;
+  margin: 5px 10px;
+  color: var(--gray-color);
+}
+
+.contact__item i:hover {
+  color: var(--primary-color);
+}
+
+.about__container, .form__container{
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+.about__title, .portfolio__title, .form__title {
+  font-family: "Playfair Display", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 95px;
+  text-align: center;
+  color: var(--black-color);
+}
+
+.about__img {
+  width: 150px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.about__paragraph {
+  color: var(--gray-color);
+  font-size: var(--primary-paragraph-size);
+  text-align: left;
+}
+
