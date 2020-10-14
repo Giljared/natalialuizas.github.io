@@ -59,8 +59,7 @@ projects.map((project) => {
   cardClone.querySelector(".project__img").src = img;
   cardClone.querySelector(".project__title").textContent = name;
   cardClone.querySelector(".project__description").textContent = description;
-  cardClone.querySelector(".project__btn a").href = link;
-  console.log(cardClone);
+  cardClone.querySelector(".link__site").href = link;
   sectionCards.appendChild(cardClone);
 });
 

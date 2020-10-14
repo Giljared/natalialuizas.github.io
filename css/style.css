@@ -252,7 +252,7 @@ img {
 }
 
 .project__box__img {
-  max-width: 500px;
+  max-width: 50%;
   max-height: 300px;
   background-color: red;
   margin: 1rem;
@@ -267,10 +267,6 @@ img {
 .project__infos {
   margin: 20px 0;
   display: block;
-}
-
-.project__infos:nth-of-type(2n) {
-  order: -1;
 }
 
 .project__infos .linha {
@@ -292,6 +288,7 @@ img {
   text-align: left;
   line-height: 25px;
   margin-top: 20px;
+  display: inline-flex;
 }
 
 .project__btn {
@@ -300,10 +297,10 @@ img {
   width: 100%;
 }
 
-.project__btn i {
-  color: var(--sencodary-color);
-  font-size: 16px;
-  margin: 10px 10px 0 0;
+.link__site {
+  color: var(--gray-color);
+  font-size: 12px;
+  display: inline-flex;
 }
 
 @media (min-width: 960px) {
