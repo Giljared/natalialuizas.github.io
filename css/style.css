@@ -251,7 +251,7 @@ img {
   display: block;
 }
 
-.project__box__img{
+.project__box__img {
   max-width: 500px;
   max-height: 300px;
   background-color: red;
@@ -317,7 +317,9 @@ img {
   .project__infos {
     width: 50%;
   }
-
+  .project__btn i {
+    font-size: 20px;
+  }
 }
 
 /* Footer */
