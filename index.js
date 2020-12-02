@@ -4,6 +4,20 @@ const projectCard = document.querySelector(".project");
 
 const projects = [
   {
+    name: "Mostra Cura",
+    description:
+      "Um evento proposto por e para artistas negras e negros, com o intuito de celebrar e mapear as produções e os corpos que produzem o antídoto contra a doença colonial, através da arte.",
+    link: "https://mostracura.com.br/",
+    img: "./img/mostra-cura.png",
+  },
+  {
+    name: "Oasi",
+    description:
+      "Oasi é uma plataforma que absorve vários formatos, shows, festas, mostras, conferências, oficinas e encontros.",
+    link: "https://oasi.vc/",
+    img: "./img/oasi.png",
+  },
+  {
     name: "Boot4Free",
     description:
       "Plataforma que centraliza informações de bootcamp gratuitos. Projeto Final do bootcamp do front-end da reprograma.",
